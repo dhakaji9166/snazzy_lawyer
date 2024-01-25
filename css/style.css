@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-button {
+    color: black;
+    background-color: #F0BC71;
+    padding: 5px 12px;
+}
+
+span {
+    color: #F0BC71;
+}
+
+/* main navbar start  */
+.main-navbar {
+
+    width: 100%;
+    background-color: #F1EBDF;
+}
+
+.main-navbar .logo {
+    color: #161715;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-navbar .logo span {
+    color: #161715;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-navbar li.nav-item {
+    padding: 4px;
+    margin-right: 11px;
+    font-size: 17px;
+    /* color: black; */
+    font-weight: 500;
+}
+
+.main-navbar li.nav-item a {
+    color: #161715;
+}
+
+/* about section start  */
+
+.about-section {
+    width: 100%;
+    background-color: #F1EBDF;
+    /* height: 100vh; */
+}
+
+
+
+.about-section h1 {
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+
+
+.about-section .main-img {
+    margin-left: -37px;
+    /* height: 450px; */
+}
+
+/* company_logo section start  */
+
+.company_logo {
+    width: 100%;
+    background-color: #F9F4EE;
+}
+
+.company_logo .product-logo {
+    width: 200px;
+    height: 50px;
+    margin-right: 18px;
+
+}
+
+/* second_about_section start  */
+
+.second_about_section {
+    width: 100%;
+    background-color: #F9F4EE;
+    /* height: 100vh; */
+}
+
+.second_about_section h1 {
+    font-size: 47px;
+    letter-spacing: -2px;
+}
+
+.second_about_section p {
+    font-size: 13px;
+}
+
+button.btn.about_buttun {
+    background-color: white;
+    border: 2px solid black;
+    color: #161715;
+}
+
+button.btn.about_buttun:hover {
+    color: black;
+    background-color: #F0BC71;
+    padding: 5px 12px;
+    border: none !important;
+}
+
+/* why choose us section start  */
+
+
+.why_choose_us {
+    width: 100%;
+    background-color: #072B27;
+   
+}
+
+.why_choose_us .text-section h1 {
+    color: white;
+}
+
+.why_choose_us p {
+    color: white;
+    font-size: 13px;
+}
+
+.why_choose_us .number-section {
+    border-right: 2px solid white;
+    
+}
+
+.why_choose_us .number-section .number {
+    font-size: 80px;
+}
+
+.why_choose_us .numbers {
+    font-size: 50px;
+}
+
+.why_choose_us .horizontal{
+    width: 400px;
+    color: white;
+    height: 2px;
+}
+
+/* what_we_do section start  */
+
+.what_we_do{
+    width: 100%;
+    background-color: #F9F4EE;
+    height: 100vh;
+}
+
+.what_we_do .text-section p {
+    font-size: 15px;
+}
+
+.what_we_do .text-section h1{
+    color: #072B27;
+    /* font-weight: 600; */
+}
